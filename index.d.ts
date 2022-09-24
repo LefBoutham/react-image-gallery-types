@@ -55,6 +55,7 @@ export interface ReactImageGalleryProps {
   showIndex?: boolean | undefined
   showBullets?: boolean | undefined
   showThumbnails?: boolean | undefined
+  showThumbnailsNav?: boolean | undefined
   showPlayButton?: boolean | undefined
   showFullscreenButton?: boolean | undefined
   disableThumbnailScroll?: boolean | undefined
@@ -97,7 +98,7 @@ export interface ReactImageGalleryProps {
   additionalClass?: string | undefined
   useTranslate3D?: boolean | undefined
   isRTL?: boolean | undefined
-  isVerticalSlide?: boolean
+  slideVertically?: boolean | undefined
 }
 
 declare class ReactImageGallery extends React.Component<ReactImageGalleryProps> {
