@@ -28,5 +28,8 @@
         "@types/react": "*"
     },
     "typesPublisherContentHash": "7a70985e2e91a976aa001296114169e91f47953e4ac24f90b17b61543b6e8fb0",
-    "typeScriptVersion": "3.7"
+    "typeScriptVersion": "3.7",
+    "devDependencies": {
+        "@types/react-image-gallery": "https://github.com/LefBoutham/react-image-gallery-types"
+    }
 }
